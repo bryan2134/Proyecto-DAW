@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Praise&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Estonia&family=Inder&display=swap');
+
+
+  html,main{
+    background-color:  #f1c40f  ;
+   
+  }  
+header{
+font-family: 'Alegreya Sans', sans-serif;
+font-size: 20px;
+top: 0px;
+left: 0px;
+width: 100%;
+z-index: -1;
+}
+.ManIni{
+    margin-left: 30px;
+    height: 70px;
+}
+
+.inicioimg{
+    top: 20px;
+    width: 1150px;
+    position: absolute;
+    height: 500px;
+    margin-left: 350px;
+}
+
+.nav-link{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.btn-primary{
+    margin-left: 120px;
+    margin-bottom: 170px;
+    background-color: #f1c40f;
+
+}
+
+/* CUESTIONARIO */
+.titulo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold ;
+    font-size: 30px ;
+    color: #000 ;
+}
+
+.formulario-container h1 {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px; 
+    margin-bottom: 20px; 
+}
+
+.formulario-container h2 {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px; 
+    margin-bottom: 20px; 
+}
+
+.asterisco {
+    color: red;
+    font-weight: 700;
+}
+
+#drop-area {
+    border: 2px dashed black;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #fff; 
+    margin-bottom: 16px;
+    display: flex; 
+    align-items: center;  
+}
+
+  #drop-area:hover {
+    background-color: #f8f8f8;
+  }
+
+  #file-input {
+    display: none;
+  }
+
+#file-label {
+    display: block;
+    margin-right: 10px; 
+}
+
+  #browse-button {
+    padding: 8px 12px; 
+    background-color: #ccc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+  
+  .main {
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  .formulario-container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .formulario-container label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .formulario-container input,
+  .formulario-container select,
+  .formulario-container textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+  }
+  
+  .formulario-container input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+
+
+
+
+
+/* FOOTER */
+footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    color: white;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bold;
+    background-color: #313844; 
+    border-top: 5px solid black;
+    margin-top: auto;
+    clear: both;
+    position: absolute;
+    width: 100%;
+    left: 0%;
+}
+
+/*
+footer {
+display: flex;
+justify-content: space-between;
+font-size: 15px;
+color: black;
+font-family: 'Libre Baskerville', serif;
+font-weight: bold;
+background-color: #58D3F7; 
+border-top: 3px solid black;
+margin-top: auto;
+clear: both;
+    position: fixed;
+    bottom: 0;
+width: 100%;
+left: 0%;
+}
+*/
+
+.columna {
+    flex: 1;
+    padding: 20px; /* Ajusta según sea necesario */
+}
+
+#imgfooter{
+    height: 100px;
+    width: 125px;
+} 
+
+.columna-1 {
+    margin-left: 5%;
+    text-align: center;
+    max-width: 60%;
+}
+
+footer a {
+    color: #FF4000;
+    text-decoration: none;
+    font-size:20px; 
+}
+
+.social-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size:20px; 
+}
+
+.social-list li {
+    margin-bottom: 10px; /* Espaciado entre cada ítem de la lista */
+}
+
+.social-list img {
+    width: 20px; /* Tamaño de las imágenes de las redes sociales */
+    height: 20px;
+    margin-right: 10px; /* Espaciado entre la imagen y el enlace */
+}
+
+.move-left-15 {
+    margin-left: -15px;
+}
+
+.login{
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50px;
+      margin: 0;
+}

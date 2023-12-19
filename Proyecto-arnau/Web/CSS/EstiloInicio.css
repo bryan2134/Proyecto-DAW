@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Praise&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Estonia&family=Inder&display=swap');
+
+
+  html,main{
+    background-color:  #f1c40f  ;
+   
+  }  
+header{
+font-family: 'Alegreya Sans', sans-serif;
+font-size: 20px;
+top: 0px;
+left: 0px;
+width: 100%;
+z-index: -1;
+}
+.ManIni{
+    margin-left: 30px;
+    height: 70px;
+}
+
+.inicioimg{
+    top: 20px;
+    width: 1150px;
+    position: absolute;
+    height: 500px;
+    margin-left: 350px;
+}
+
+.nav-link{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.btn-primary{
+    margin-left: 120px;
+    margin-bottom: 170px;
+    background-color: #f1c40f;
+
+}
+
+/* CARDS */
+
+.card {
+    box-shadow: 6px 2px 2px black;
+}
+
+.card:hover{
+    transform: scale(1.03);
+    transition: 0.1s;
+    box-shadow: 5px 5px 5px black;
+}
+
+.card1{
+    margin-top: 100px;
+    margin-left: 350px;
+
+}
+.card2{
+   margin-top: -400px;
+    margin-left: 760px;
+}
+.card3{
+    margin-top: -400px;
+     margin-left: 1170px;
+ }
+ .card4{
+    margin-top: 50px;
+    margin-left: 350px;
+ }
+ .card5{
+    margin-top: -400px;
+    margin-left: 760px;
+ }
+ .card6{
+    margin-top: -400px;
+    margin-left: 1170px;
+ }
+footer {
+font-family: 'Alegreya Sans', sans-serif;
+font-size: 13px;
+color: white;
+margin-top: 100px;
+position: absolute;
+background-color: #313844; 
+width: 100%;
+border-top: 6px solid black;
+}
+#imgfooter{
+    margin-left: 375px;
+height: 100px;
+width: 125px;
+}
+.move-left-15 {
+    margin-left: -15px;
+}
+.login{
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50px;
+      margin: 0;
+}
