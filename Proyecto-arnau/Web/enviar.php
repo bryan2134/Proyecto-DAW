@@ -13,27 +13,27 @@
       $para = 'fitfusionkda@gmail.com';
 
       //Creamos cabecera.
-      $headers = 'From' . " " . $email . "\r\n";
+      $headers = 'From' . $email  . "\r\n";
       $headers .= "Content-type: text/html; charset=utf-8";
 
       //Componemos cuerpo correo.
       $msjCorreo = "Nombre: " . $nombre;
       $msjCorreo .= "\r\n";
-      $msjCorreo = "Nombre: " . $direc;
+      $msjCorreo .= "Direccion: " . $direc;
       $msjCorreo .= "\r\n";
-      $msjCorreo = "Nombre: " . $ciudad;
+      $msjCorreo .= "Ciudad: " . $ciudad;
       $msjCorreo .= "\r\n";
-      $msjCorreo = "Nombre: " . $telef;
+      $msjCorreo .= "Telefono: " . $telef;
       $msjCorreo .= "\r\n";
       $msjCorreo .= "Email: " . $email;
       $msjCorreo .= "\r\n";
-      $msjCorreo .= "Asunto: " . $subject;
+      $msjCorreo .= "Edad: " . $edad;
       $msjCorreo .= "\r\n";
-      $msjCorreo = "Nombre: " . $edad;
-      $msjCorreo .= "\r\n";
-      echo $para;
-      echo $;
+echo $para;
+echo $headers;
 echo $msjCorreo;
+
+
 
     if (mail($para, $msjCorreo, $headers)) {
          echo "<script language='javascript'>

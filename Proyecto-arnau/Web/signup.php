@@ -1,3 +1,4 @@
+
 <!DOCTYPE html> 
 <html> 
 <head>
@@ -14,9 +15,6 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </head>
-
-
-
 <body>
 	
 <div class="b-example-divider"></div>
@@ -31,8 +29,8 @@
         <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
 			<img class="ManIni" src="images/logo.png">
           <li><a href="index.html" class="nav-link px-2 text-white">Home</a></li>
-		  <li class="nav-item dropdown">
-            <a href="contacto.html" class="nav-link px-2 text-secondary dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false">Nuestras actividades</a>
+          <li class="nav-item dropdown">
+            <a href="contacto.html" class="nav-link px-2 text-white dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false">Nuestras actividades</a>
             <ul class="dropdown-menu" style="background-color: #313844;">
                 <li><a href="boxeo.html" class="dropdown-item">Boxeo</a></li>
                 <li><a href="kickboxing.html" class="dropdown-item">Kick Boxing</a></li>
@@ -43,8 +41,8 @@
             </ul>
         </li>
 			<li><a href="tienda.html" class="nav-link px-2 text-white">Tienda</a></li>
-          	<li><a href="contacto.html" class="nav-link px-2 text-white">Contacto</a></li>
-		 	<li><a href="trabajaconnosotros.html" class="nav-link px-2 text-white">Trabaja con nosotros</a></li>  
+          <li><a href="contacto.html" class="nav-link px-2 text-white">Contacto</a></li>
+          <li><a href="trabajaconnosotros.html" class="nav-link px-2 text-white">Trabaja con nosotros</a></li>  
         </ul>
 
         <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
@@ -52,33 +50,39 @@
         </form>
 
         <div class="text-end">
-          <a href="login.html"><button type="button" class="btn btn-outline-light me-2">Login</button></a>
-          <a href="signup.php"><button type="button" class="btn btn-warning">Sign-up</button></a>
-        </div>          
+            <a href="login.html"><button type="button" class="btn btn-outline-light me-2">Login</button></a>
+            <a href="signup.php"><button type="button" class="btn btn-warning">Sign-up</button></a>
+          </div>          
       </div>
     </div>
   </header>
-  <body>
 <main>
-  <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    </div>
-	
-    <div class="carousel-inner">
-		<div class="carousel-item active">
-			<img class="inicioimg" src="images/inicio.png">
-			<svg class="bd-placeholder-img" width="100%" height="570px" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
-			<div class="container">
-			<div class="carousel-caption text-start">
-				<p><a class="btn btn-lg btn-primary" href="signup.php">UNETE!</a></p>
-				
-			</div>
-			</div>
-		</div>
-	  </div>
-<h1>Taekwondo</h1>
+    <h1>Sign-up</h1>
+       <div>
+      <form method= "POST">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <div>
+          <label for="apellido">Apellido:</label>
+          <input type="text" id="apellido" name="apellido" required>
+        </div>
+        <div>
+          <label for="correo">Correo Electrónico:</label>
+          <input type="email" id="correo" name="correo" required>
+        </div>
       
+        <div>
+          <label for="contrasena">Contraseña:</label>
+          <input type="password" id="contrasena" name="contrasena" required>
+        </div>
+        <div>
+          <input type="submit" name="registrarse" value="Enviar">
+        </div>
+      </form>
+      <?php 
+      include ("registro.php");
+      ?>
 	<footer class="py-5 footer">
         <div class="row">
           <img id="imgfooter" src="images/logo.png">
@@ -106,5 +110,6 @@
       </footer>
       </main>
   </body> 
-  
+
   </html>
+  
